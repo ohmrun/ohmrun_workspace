@@ -1,5 +1,6 @@
 ## Haxe Workspace
 
+`direnv` is required.
 
 ```bash
   curl -sfL https://direnv.net/install.sh | bash
@@ -13,14 +14,13 @@ see https://direnv.net/docs/hook.html
 ```bash
 git clone --recursive https://github.com/ohmrun/stx_workspace.git
 ```
+
+Run setup by using `direnv allow`
 ```bash
-cd stx_workspace
-```
-```bash
-direnv allow
+cd stx_workspace direnv allow
 ```
 
-Try the next command when done
+Try the next command when done. There should be no errors.
 ```bash
   stx_workspace_sanity
 ```
@@ -34,7 +34,6 @@ create a new folder
 ```bash
 cd .. && mkdir project && cd project
 ```
-
 
 A dotenv should be located at $HOME/.config/stx.env containing the environment variable $STX_WORKSPACE_DIR.
 
