@@ -27,15 +27,20 @@ Try the next command when done
 
 Will install the direnv version of Python, anything from the Pipfile, asdf and then nodejs, neko and haxe.
 
-create a new folder for your project
+## To use the binaries in a project, 
+
+create a new folder
+
 ```bash
 cd .. && mkdir project && cd project
 ```
 
 
-User wherever stx_workspace is located  
+A dotenv should be located at $HOME/.config/stx.env containing the environment variable $STX_WORKSPACE_DIR.
+
+
 ```bash
-echo "source_env ../stx_workspace" > .envrc && direnv allow
+echo -e "dotenv $HOME/.config/stx.env \nsource_env $STX_WORKSPACE_DIR" > .envrc && direnv allow                                                                                           
 ```
 
 
