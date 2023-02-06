@@ -17,7 +17,7 @@ git clone --recursive https://github.com/ohmrun/stx_workspace.git
 
 Run setup by using `direnv allow`
 ```bash
-cd stx_workspace direnv allow
+cd stx_workspace && direnv allow
 ```
 
 Try the next command when done. There should be no errors.
