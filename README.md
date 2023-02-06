@@ -35,8 +35,8 @@ cd .. && mkdir project && cd project
 
 User wherever stx_workspace is located  
 ```bash
-echo "source_env ../stx_workspace" > .envrc
-direnv allow
+echo "source_env ../stx_workspace" > .envrc && direnv allow
 ```
+
 
 
