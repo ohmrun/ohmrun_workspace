@@ -44,4 +44,4 @@ echo -e "dotenv $HOME/.config/stx.env \nsource_env \$STX_WORKSPACE_DIR" > .envrc
 
 ### Notes
 
-A dotenv should be located at $HOME/.config/stx.env containing the environment variable $STX_WORKSPACE_DIR.
+A dotenv should be set up by .envrc located at $HOME/.config/stx.env containing the environment variable $STX_WORKSPACE_DIR.
