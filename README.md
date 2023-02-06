@@ -27,6 +27,10 @@ Try the next command when done. There should be no errors.
 
 Will install the direnv version of Python, anything from the Pipfile, asdf and then nodejs, neko and haxe.
 
+
+![](stx/doc/assets/install.gif)
+
+
 ## To use the binaries in a project, 
 
 create a new folder
@@ -39,8 +43,6 @@ run the following command to setup a workspace
 ```bash
 echo -e "dotenv $HOME/.config/stx.env \nsource_env \$STX_WORKSPACE_DIR" > .envrc && direnv allow
 ```
-
-![](stx/doc/assets/install.gif)
 
 ### Notes
 
