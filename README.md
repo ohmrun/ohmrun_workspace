@@ -22,7 +22,7 @@ direnv allow
 
 Try the next command when done
 ```bash
-  haxe --run stx/i/run/StxWorkspaceSanity.hx
+  stx_workspace_sanity
 ```
 
 Will install the direnv version of Python, anything from the Pipfile, asdf and then nodejs, neko and haxe.
