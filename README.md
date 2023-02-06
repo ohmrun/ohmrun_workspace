@@ -40,9 +40,8 @@ run the following command to setup a workspace
 echo -e "dotenv $HOME/.config/stx.env \nsource_env \$STX_WORKSPACE_DIR" > .envrc && direnv allow
 ```
 
+![](stx/doc/assets/install.gif)
 
 ### Notes
 
 A dotenv should be located at $HOME/.config/stx.env containing the environment variable $STX_WORKSPACE_DIR.
-
-
