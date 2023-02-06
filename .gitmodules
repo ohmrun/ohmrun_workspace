@@ -1,6 +1,3 @@
-[submodule "vendor/pyenv"]
-	path = vendor/pyenv
-	url = https://github.com/pyenv/pyenv.git
 [submodule "vendor/asdf"]
 	path = vendor/asdf
 	url = https://github.com/asdf-vm/asdf.git

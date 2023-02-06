@@ -1,7 +1,7 @@
 ## Haxe Workspace
 
-bash
-```
+
+```bash
   curl -sfL https://direnv.net/install.sh | bash
 ```
 
@@ -20,4 +20,23 @@ cd stx_workspace
 direnv allow
 ```
 
-Will install the direnv version of Python, anything from the Pipfile, asdf and then neko and haxe.
+Try the next command when done
+```bash
+  haxe --run stx/i/run/StxWorkspaceSanity.hx
+```
+
+Will install the direnv version of Python, anything from the Pipfile, asdf and then nodejs, neko and haxe.
+
+create a new folder for your project
+```bash
+cd .. && mkdir project && cd project
+```
+
+
+User wherever stx_workspace is located  
+```bash
+echo "source_env ../stx_workspace" > .envrc
+direnv allow
+```
+
+

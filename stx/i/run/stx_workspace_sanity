@@ -1,0 +1,1 @@
+haxe --run stx/i/run/StxWorkspaceSanity.hx
