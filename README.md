@@ -39,7 +39,7 @@ A dotenv should be located at $HOME/.config/stx.env containing the environment v
 
 
 ```bash
-echo -e "dotenv $HOME/.config/stx.env \nsource_env $STX_WORKSPACE_DIR" > .envrc && direnv allow                                                                                           
+echo -e "dotenv $HOME/.config/stx.env \nsource_env \$STX_WORKSPACE_DIR" > .envrc && direnv allow
 ```
 
 
