@@ -35,12 +35,14 @@ create a new folder
 cd .. && mkdir project && cd project
 ```
 
-A dotenv should be located at $HOME/.config/stx.env containing the environment variable $STX_WORKSPACE_DIR.
-
-
+run the following command to setup a workspace
 ```bash
 echo -e "dotenv $HOME/.config/stx.env \nsource_env \$STX_WORKSPACE_DIR" > .envrc && direnv allow
 ```
 
+
+### Notes
+
+A dotenv should be located at $HOME/.config/stx.env containing the environment variable $STX_WORKSPACE_DIR.
 
 
