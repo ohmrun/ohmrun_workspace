@@ -1,0 +1,1 @@
+Requires Git and Direnv

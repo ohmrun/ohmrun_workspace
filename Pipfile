@@ -1,0 +1,6 @@
+[packages]
+requests = "*"
+jupyter-console = "*"
+
+[dev-packages]
+pytest = "*"
