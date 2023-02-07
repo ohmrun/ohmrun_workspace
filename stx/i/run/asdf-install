@@ -1,9 +1,10 @@
-#!/bin/bash
 
+#!/bin/bash
+asdf plugin add python
 asdf plugin-add neko https://github.com/asdf-community/asdf-neko.git
 asdf plugin-add haxe https://github.com/asdf-community/asdf-haxe.git
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
-asdf plugin add python
+asdf plugin add julia
 
 asdf haxe neko dylibs link # link neko dylibs
 

@@ -22,7 +22,7 @@ cd stx_workspace && direnv allow
 
 Try the next command when done. There should be no errors.
 ```bash
-  stx_workspace_sanity
+  stx-workspace-sanity
 ```
 
 Will install the direnv version of Python, anything from the Pipfile, asdf and then nodejs, neko and haxe.
