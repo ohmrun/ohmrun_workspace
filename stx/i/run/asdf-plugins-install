@@ -1,0 +1,5 @@
+#!/bin/bash
+
+asdf plugin-add neko https://github.com/asdf-community/asdf-neko.git
+asdf plugin-add haxe https://github.com/asdf-community/asdf-haxe.git
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
