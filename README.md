@@ -28,9 +28,6 @@ Try the next command when done. There should be no errors.
 Will install the direnv version of Python, anything from the Pipfile, asdf and then nodejs, neko and haxe.
 
 
-![](stx/doc/assets/ins`tall.gif)
-
-
 ## To use the binaries in a project, 
 
 create a new folder
