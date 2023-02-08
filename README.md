@@ -64,7 +64,7 @@ A dotenv should be set up by `.envrc` located at `$HOME/.config/stx.env` contain
 
 
 The `/stx` folder contains the bootsrapping code and is divided into the following folders
-`/stx/i` is checked in  
-`/stx/i/run` are scripts on the `PATH` as set in `.env.machine`
-`/stx/u` is for stuff you might want to back up for reasons of bandwidth  
-`/stx/o` is in the .gitignore and holds a lot of the stuff from asdf and opam  
+`/stx/i` is checked in    
+`/stx/i/run` are scripts on the `PATH` as set in `.env.machine`  
+`/stx/u` is for stuff you might want to back up for reasons of bandwidth   
+`/stx/o` is in the .gitignore and holds a lot of the stuff from asdf and opam   
