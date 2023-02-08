@@ -44,11 +44,28 @@ run the following command to setup a workspace
 echo -e "dotenv $HOME/.config/stx.env \nsource_env \$STX_WORKSPACE_DIR" > .envrc && direnv allow
 ```
 
+Or you can paste into your .envrc
+
+```bash
+  dotenv_if_exists $HOME/.config/stx.env
+
+  if ! [[ -z "${STX_WORKSPACE_DIR}" ]]; then
+    source_env $STX_WORKSPACE_DIR
+  fi
+```
 ### Notes
 
 A dotenv should be set up by .envrc located at $HOME/.config/stx.env containing the environment variable $STX_WORKSPACE_DIR.
 
+dotenv_if_exists $HOME/.config/stx.env
 
+if ! [[ -z "${STX_WORKSPACE_DIR}" ]]; then
+  source_env $STX_WORKSPACE_DIR
+
+  asdf plugin add shellcheck
+  asdf plugin add shfmt
+  asdf install
+fi
 ### Layout
 
 .env.local is checked in and necessary
