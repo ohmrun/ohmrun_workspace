@@ -16,7 +16,21 @@ see https://direnv.net/docs/hook.html
 
 ##Install
 
-see INSTALL.md
+clone repo recursively
+```bash
+git clone --recursive https://github.com/ohmrun/stx_workspace.git
+```
+
+Run setup by using `direnv allow`
+```bash
+cd stx_workspace && direnv allow
+```
+
+Try the next command when done. There should be no errors.
+```bash
+  stx-workspace-sanity
+```
+s
 
 ## To use the binaries in a project, 
 
