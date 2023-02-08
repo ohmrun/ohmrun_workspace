@@ -14,22 +14,9 @@ hook into the shell
 see https://direnv.net/docs/hook.html
 
 
-```bash
-git clone --recursive https://github.com/ohmrun/stx_workspace.git
-```
+##Install
 
-Run setup by using `direnv allow`
-```bash
-cd stx_workspace && direnv allow
-```
-
-Try the next command when done. There should be no errors.
-```bash
-  stx-workspace-sanity
-```
-
-Will install the direnv version of Python, anything from the Pipfile, asdf and then nodejs, neko and haxe.
-
+see INSTALL.md
 
 ## To use the binaries in a project, 
 
