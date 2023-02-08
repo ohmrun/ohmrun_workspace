@@ -41,7 +41,7 @@ cd .. && mkdir project && cd project
 
 run the following command to setup a workspace
 ```bash
-echo -e "dotenv $HOME/.config/stx.env \nsource_env \$STX_WORKSPACE_DIR" > .envrc && direnv allow
+echo -e "dotenv_if_exists $HOME/.config/stx.env \nsource_env_if_exists \$STX_WORKSPACE_DIR" > .envrc && direnv allow
 ```
 
 Or you can paste into your .envrc
