@@ -6,7 +6,11 @@ asdf plugin-add haxe https://github.com/asdf-community/asdf-haxe.git
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf plugin add julia
 asdf plugin-add php https://github.com/asdf-community/asdf-php.git
+asdf plugin-add rust
+asdf plugin-add git-chglog
+asdf plugin-add opam https://github.com/asdf-community/asdf-opam.git
 
 asdf haxe neko dylibs link # link neko dylibs
 
 asdf install
+
