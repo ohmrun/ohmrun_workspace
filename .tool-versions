@@ -1,10 +1,11 @@
 neko 2.3.0
 haxe 4.2.5
-
-nodejs 18.12.0
-julia 1.8.5
-python 3.10.6
-php   8.1.15
-git-chglog 0.15.2
+rust 1.67.1
 opam 2.1.4
-hashlink 1.13
+
+#nodejs 18.12.0
+#julia 1.8.5
+#python 3.10.6
+#php   8.1.15
+#git-chglog 0.15.2
+#hashlink 1.13
