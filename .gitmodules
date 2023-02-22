@@ -1,3 +1,6 @@
 [submodule "vendor/asdf"]
 	path = vendor/asdf
 	url = https://github.com/asdf-vm/asdf.git
+[submodule "stx/i/prj/kisslang"]
+	path = stx/i/prj/kisslang
+	url = https://github.com/NQNStudios/kisslang
