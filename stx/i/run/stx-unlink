@@ -1,0 +1,19 @@
+# Pulled from https://stackoverflow.com/questions/18641864/git-bash-shell-fails-to-create-symbolic-links
+# https://stackoverflow.com/users/124119/camilo-martin
+
+# Detect windows (assumes we are in 'msysgit' or similar).
+windows() { [[ -n "$WINDIR" ]]; }
+
+# Remove a link, cross-platform.
+rmlink() {
+    if windows; then
+        # Again, Windows needs to be told if it's a file or directory.
+        if [[ -d "$1" ]]; then
+            rmdir "$1";
+        else
+            rm "$1"
+        fi
+    else
+        rm "$1"
+    fi
+}
