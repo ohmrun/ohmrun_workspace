@@ -48,8 +48,8 @@ echo -e "dotenv_if_exists $HOME/.config/stx.env \nsource_env_if_exists \$STX_WOR
 Or you can paste into your `.envrc`
 
 ```bash
-  dotenv_if_exists $HOME/.config/stx.env
-  source_env_if_exists $STX_WORKSPACE_DIR
+  dotenv $HOME/.config/stx.env
+  source_env $STX_WORKSPACE_DIR
 ```
 ### Notes
 
