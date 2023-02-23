@@ -42,7 +42,7 @@ cd .. && mkdir project && cd project
 
 If you don't have a `.envrc` in your project folder run the following command to setup a workspace
 ```bash
-echo -e "dotenv_if_exists $HOME/.config/stx.env \nsource_env_if_exists \$STX_WORKSPACE_DIR" > .envrc && direnv allow
+echo -e "dotenv_if_exists $HOME/.config/stx.env \nsource_env \$STX_WORKSPACE_DIR" > .envrc && direnv allow
 ```
 
 Or you can paste into your `.envrc`
