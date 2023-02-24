@@ -2,6 +2,6 @@
 	path = vendor/asdf
 	url = https://github.com/asdf-vm/asdf.git
 [submodule "stx/i/prj/kisslang"]
-	path 		= stx/i/prj/kisslang
+	path = .local/stx/i/prj/kisslang
 	url = https://github.com/0b1kn00b/kisslang
 	branch = monolith
