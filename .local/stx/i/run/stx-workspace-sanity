@@ -1,2 +1,2 @@
 #!/bin/bash
-cd $STX_WORKSPACE_DIR && haxe --run stx/i/run/StxWorkspaceSanity.hx
+cd $STX_WORKSPACE_DIR && haxe -cp $STX_WORKSPACE_DIR/.local --run stx.i.run.StxWorkspaceSanity
