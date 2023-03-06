@@ -1,6 +1,7 @@
 .env.machine
 .direnv
-.local/stx/o/
+/.local/stx/o/
+/.local/stx/.overlay
 /Pipfile.lock
 /node_modules
 /package-lock.json
