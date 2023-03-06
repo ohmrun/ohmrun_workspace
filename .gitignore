@@ -1,10 +1,15 @@
 .env.machine
 .direnv
+/.local/stx/u
 /.local/stx/o/
 /.local/stx/.overlay
+/.local/stx/m
 /Pipfile.lock
 /node_modules
 /package-lock.json
 /Manifest.toml
 .env
 .env.machine
+# Entries below this point are managed by Please (DO NOT EDIT)
+plz-out
+.plzconfig.local
