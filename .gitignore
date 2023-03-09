@@ -1,4 +1,6 @@
 .env.machine
+/.clj-kondo
+/.lsp
 .direnv
 /.local/stx/u
 /.local/stx/o/

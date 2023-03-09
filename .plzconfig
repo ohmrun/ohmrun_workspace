@@ -7,3 +7,17 @@
 ; when you change it all users will automatically get updated.
 ; [please]
 ; version = 16.27.3
+[Parse]
+BuildDefsDir = $STX_WORKSPACE_DIR/.local/i/src/plz
+[Build]
+PassEnv = STX_WORKSPACE_DIR
+PassEnv = ASDF_CONFIG_FILE
+PassEnv = ASDF_DEFAULT_TOOL_VERSIONS_FILENAME
+PassEnv = ASDF_DIR
+PassEnv = ASDF_DATA_DIR
+Path    = .local/.asdf/bin/
+Path    = .local/stx/o/var/asdf/shims/
+Path    = :/usr/local/bin:/usr/bin:/bin
+[Sandbox]
+Build = False
+[BuildConfig]

@@ -1,0 +1,3 @@
+{:deps {ohmrun/stx {:local/root "."}}
+ :tasks {test (shell "echo hello world")
+         copy_in_stx_workspace (shell "cp $STX_WORKSPACE/stx/i ./i")}}
