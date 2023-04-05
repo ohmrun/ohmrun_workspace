@@ -42,18 +42,18 @@ cd .. && mkdir project && cd project
 
 If you don't have a `.envrc` in your project folder run the following command to setup a workspace
 ```bash
-echo -e "dotenv_if_exists $HOME/.config/stx.env \nsource_env \$STX_WORKSPACE_DIR" > .envrc && direnv allow
+echo -e "dotenv_if_exists $HOME/.config/stx.env \nsource_env \$STX_WORKSPACE_PATH" > .envrc && direnv allow
 ```
 
 Or you can paste into your `.envrc`
 
 ```bash
   dotenv $HOME/.config/stx.env
-  source_env $STX_WORKSPACE_DIR
+  source_env $STX_WORKSPACE_PATH
 ```
 ### Notes
 
-A dotenv should be set up by `.envrc` located at `$HOME/.config/stx.env` containing the environment variable `$STX_WORKSPACE_DIR`.
+A dotenv should be set up by `.envrc` located at `$HOME/.config/stx.env` containing the environment variable `$STX_WORKSPACE_PATH`.
 
 
 ### Layout

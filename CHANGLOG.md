@@ -32,5 +32,5 @@ a00ef08 README.md
 00c1e55 Tinkering #2
 53e5b38 Tinkering #1
 10bfa26 Testing install instructions
-83c63be STX becomes STX_WORKSPACE_DIR
+83c63be STX becomes STX_WORKSPACE_PATH
 7a12fc6 Initial Commit

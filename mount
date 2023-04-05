@@ -1,2 +1,2 @@
-fuse-overlayfs -o lowerdir=$STX_WORKSPACE_DIR/.local/stx/i,upperdir=$STX_WORKSPACE_DIR/.local/stx/u,workdir=$STX_WORKSPACE_DIR/.local
-/stx/.overlay $STX_WORKSPACE_DIR/.local/stx/m
+fuse-overlayfs -o lowerdir=$STX_WORKSPACE_PATH/.local/stx/i,upperdir=$STX_WORKSPACE_PATH/.local/stx/u,workdir=$STX_WORKSPACE_PATH/.local
+/stx/.overlay $STX_WORKSPACE_PATH/.local/stx/m
