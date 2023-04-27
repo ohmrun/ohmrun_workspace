@@ -8,9 +8,9 @@
 ; [please]
 ; version = 16.27.3
 [Parse]
-BuildDefsDir = $STX_WORKSPACE_PATH/.local/i/src/plz
+BuildDefsDir = $OHMRUN_WORKSPACE_PATH/.local/i/src/plz
 [Build]
-PassEnv = STX_WORKSPACE_PATH
+PassEnv = OHMRUN_WORKSPACE_PATH
 PassEnv = ASDF_CONFIG_FILE
 PassEnv = ASDF_DEFAULT_TOOL_VERSIONS_FILENAME
 PassEnv = ASDF_DIR

@@ -2,7 +2,7 @@ package stx.i.run;
 
 class StxWorkspaceSanity{
   static public function main(){
-    Sys.println('cd $$STX_WORKSPACE_PATH && haxe -cp $$STX_WORKSPACE_PATH/.local --run stx.i.run.StxWorkspaceSanity');
+    Sys.println('cd $$OHMRUN_WORKSPACE_PATH && haxe -cp $$OHMRUN_WORKSPACE_PATH/.local --run stx.i.run.StxWorkspaceSanity');
     Sys.println('________________________________________________________________________________');
     Sys.print('python ');
     Sys.command("python --version");

@@ -1,2 +1,2 @@
-fuse-overlayfs -o lowerdir=$STX_WORKSPACE_PATH/.local/stx/i,upperdir=$STX_WORKSPACE_PATH/.local/stx/u,workdir=$STX_WORKSPACE_PATH/.local
-/stx/.overlay $STX_WORKSPACE_PATH/.local/stx/m
+fuse-overlayfs -o lowerdir=$OHMRUN_WORKSPACE_PATH/.local/stx/i,upperdir=$OHMRUN_WORKSPACE_PATH/.local/stx/u,workdir=$OHMRUN_WORKSPACE_PATH/.local
+/stx/.overlay $OHMRUN_WORKSPACE_PATH/.local/stx/m

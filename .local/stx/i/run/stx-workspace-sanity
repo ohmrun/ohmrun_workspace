@@ -1,2 +1,2 @@
 #!/bin/bash
-cd $STX_WORKSPACE_PATH && haxe -cp $STX_WORKSPACE_PATH/.local --run stx.i.run.StxWorkspaceSanity
+cd $OHMRUN_WORKSPACE_PATH && haxe -cp $OHMRUN_WORKSPACE_PATH/.local --run stx.i.run.StxWorkspaceSanity
