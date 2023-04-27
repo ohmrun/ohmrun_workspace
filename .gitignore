@@ -2,10 +2,10 @@
 /.clj-kondo
 /.lsp
 .direnv
-/.local/stx/u
-/.local/stx/o/
-/.local/stx/.overlay
-/.local/stx/m
+/.local/bertha/u
+/.local/bertha/o/
+/.local/bertha/.overlay
+/.local/bertha/m
 /Pipfile.lock
 /node_modules
 /package-lock.json
